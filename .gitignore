@@ -1,3 +1,4 @@
+# output/
 venv/
 temp/
 .rpa/
@@ -9,6 +10,7 @@ temp/
 .vscode
 .DS_Store
 *.pyc
+# *.zip
 */work-items-out/*
 testrun/*
 .~lock*
