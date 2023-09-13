@@ -46,10 +46,10 @@ Loop orders
     [Arguments]    ${localData}
     FOR    ${row}    IN    @{localData}
         Log    ${row}
-        Fill the form    ${row}
+        Fill the form and order    ${row}
     END
 
-Fill the form
+Fill the form and order
     [Arguments]    ${localrow}
     Select From List By Index    id:head    ${localrow}[Head]
     ${selectedRadioButton}=    Catenate    SEPARATOR=-    id-body    ${localrow}[Body]
