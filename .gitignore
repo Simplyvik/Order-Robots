@@ -9,7 +9,6 @@ temp/
 .vscode
 .DS_Store
 *.pyc
-*.zip
 */work-items-out/*
 testrun/*
 .~lock*
